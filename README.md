@@ -5,8 +5,8 @@ This project involves analyzing COVID-19 data sourced from Our World in Data. Th
 
 ## Steps Taken
 ### Data Download and Preparation:
-Downloaded the dataset from Our World in Data.
-Used Microsoft Excel to clean the dataset and split it into two tables: CovidVaccinations and CovidDeaths (Available for download in repository).
+Downloaded the dataset from Our World in Data. https://ourworldindata.org/covid-deaths
+Used Microsoft Excel to clean the dataset and split it into two tables: CovidVaccinations and CovidDeaths. https://1drv.ms/f/c/a2a3100c3ea8ea1b/EiAktuKzmrZKnXnTpDeLYqwBSVOb89ij2F6n9UpTnPJqAQ?e=EMmO0b
 
 ### Database Setup:
 
