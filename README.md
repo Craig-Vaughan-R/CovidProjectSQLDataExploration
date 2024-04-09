@@ -14,3 +14,4 @@ Created a database in SQL Server.
 Uploaded the tables (CovidVaccinations and CovidDeaths) to the SQL Server database.
 
 ### Data Exploration:
+
