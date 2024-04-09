@@ -1,7 +1,7 @@
-# CovidProjectSQLDataExploration
+# Covid QLDataExploration
  
 ## Introduction
-This project involves analyzing COVID-19 data sourced from Our World in Data. The dataset was processed using Microsoft Excel to clean and organize the data into two tables: CovidVaccinations and CovidDeaths. Subsequently, the tables were uploaded to a SQL Server database using SQL Management Studio.
+This project involves analyzing COVID-19 data sourced from Our World in Data. The dataset comprises COVID-19 vaccination and death data from around the world. The dataset was processed using Microsoft Excel to clean and organise  the data into two tables: CovidVaccinations and CovidDeaths. Following, the tables were uploaded to a SQL Server Management Studio database using SQL Management Studio.
 
 ## Steps Taken
 ### Data Download and Preparation:
