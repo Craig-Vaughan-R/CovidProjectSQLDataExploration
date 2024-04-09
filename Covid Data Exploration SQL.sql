@@ -58,3 +58,13 @@ WHERE continent IS NOT NULL
 ORDER BY 1,2
 
 
+-- Looking at Total Population vs Vacciniations
+
+SELECT dea.continent, dea.location, dea.date, dea.population, vac.new_vaccinations, SUM(CAST(vac.new_vaccinations as BIGINT)) OVER (partition by dea.location ORDER BY dea.location, dea.date) AS RollingPeopleVaccinated
+FROM CovidProject..covid_deaths AS dea
+JOIN CovidProject..covid_vacciniations AS vac
+	ON dea.location = vac.location
+	and dea.date = vac.date
+WHERE dea.continent is not null
+ORDER BY 2,3
+
